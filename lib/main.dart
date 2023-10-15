@@ -18,9 +18,9 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(249, 0, 0, 0),
+      backgroundColor: Color.fromARGB(248, 36, 28, 28),
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(255, 2, 2, 3),
+        backgroundColor: Color.fromARGB(248, 36, 28, 28),
         title: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
@@ -54,7 +54,7 @@ class LoginPage extends StatelessWidget {
             
             children: [
               Card(
-                color: Color.fromRGBO(44, 39, 39, 1),
+                color: Color.fromRGBO(22, 20, 20, 1),
                 margin: EdgeInsets.symmetric(horizontal: 600, vertical: 50),
                 child: Padding(
                   padding:
